@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.blogs{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar__nav{
+    height: 50px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.navbar__nav__link{
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: black;
+}
+
+.navbar__nav__item{
+    width: 80px;
+    text-decoration: none;
+    float: left;
+    padding:10px;
+    margin-left: 5px;
+    border-left: 1px solid rgb(65, 65, 65);
+    text-align: center;
+}
+
+.navbar__nav__item__link{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.main{
+    background-color: teal;
+    height: 92%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main__left{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: scroll;
+
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.main__right{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle__title{
+    margin: 10px;
+    padding: 10px;
+    font-size:20pt;
+}
+
+.main__middle__blog{
+    width: 80%;    
+    background-color: aliceblue;
+    border: 20px solid aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.likes__dislikes{
+    height: 30%;
+    width: 80%;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.item__box{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.item__box > p{
+    width: 50%;
+}
+
+.item__box > button{
+    width: 30%;
+    height: 30%;
+}

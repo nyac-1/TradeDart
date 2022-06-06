@@ -1,0 +1,65 @@
+.blogs{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow-y: hidden;
+
+    background-color: slategray;
+}
+
+.blogs__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+
+    padding: 20px;
+    outline: 20px solid black;
+}
+
+
+.blogs__button{
+    text-align: center;
+
+}
+
+.blogs__button > Button{
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+.QuillEditor__editor {
+    max-width: 1000px;
+    min-width: 80%;
+    margin: 10px;
+}
+.blogs__inner__unique__title{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blogs__inner__unique__title > input{
+    width: 60%;
+    border: 0;
+    border-bottom: 2px solid black;
+    height: 30px;
+
+    font-size: 15pt;
+}
+
+.blogs__inner__unique__title > label{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-right: 10px;
+}

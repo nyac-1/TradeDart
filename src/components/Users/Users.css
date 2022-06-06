@@ -1,0 +1,157 @@
+.profile{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar__nav{
+    height: 50px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.navbar__nav__link{
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: black;
+}
+
+.navbar__nav__item{
+    width: 80px;
+    text-decoration: none;
+    float: left;
+    padding:10px;
+    margin-left: 5px;
+    border-left: 1px solid rgb(65, 65, 65);
+    text-align: center;
+}
+
+.navbar__nav__item__link{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.main{
+    background-color: teal;
+    height: 92%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main__left{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: scroll;
+
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.main__right{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#user_page_middle{
+    justify-content: center;
+}
+
+#userprofile{
+    height: 700px;
+    width: 400px;
+
+    background-color: gray;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+#userprofile:hover{
+    background-color: rgb(49, 49, 49)
+}
+
+#userprofile:hover #userprofile__name{
+    color: rgb(37, 115, 172);
+}
+
+#userprofile__name{
+    font-size: 25pt;
+    font-weight: 600;
+    color: rgb(46, 81, 134);
+
+    transition: 0.3s;
+}
+
+#userprofile__img{
+    margin: 20px 20px;
+}
+
+.userprofile__smth{
+    font-size: 15pt;
+    padding: 20px;
+    color: rgb(238, 206, 206);
+    font-weight: 400;
+
+    transition: 0.3s;
+}
+
+.userprofile__smth:hover{
+    font-size: 16pt;
+    color: snow;
+}
+
+#userprofile__name:hover{
+    font-size: 26pt;
+}
+
+#userprofile__img{
+    transition: 0.3s;
+}
+
+#userprofile__img:hover{
+    height: 300px;
+}
+
+#email__id__margin{
+    margin-top: 50px;
+}

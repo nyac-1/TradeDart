@@ -1,0 +1,131 @@
+
+.blogs{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar__nav{
+    height: 50px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.navbar__nav__link{
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: black;
+}
+
+.navbar__nav__item{
+    width: 80px;
+    text-decoration: none;
+    float: left;
+    padding:10px;
+    margin-left: 5px;
+    border-left: 1px solid rgb(65, 65, 65);
+    text-align: center;
+}
+
+.navbar__nav__item__link{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.main{
+    background-color: teal;
+    height: 92%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main__left{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: scroll;
+
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.main__right{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle__title{
+    margin: 10px;
+    padding: 10px;
+    font-size:20pt;
+}
+
+
+.content{
+    border: 2px solid black;
+    height: 85%;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: rgb(236, 236, 234);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: 0.3s;
+
+}
+
+.content:hover{
+    box-shadow: 0 0 40px rgba(10, 99, 25, 0.555);
+}
+
+.main__middle__title__aboutus{
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.body__main{
+    font-weight: 600;
+    padding: 10px;
+}
+
+#sampath{
+    font-size: 20pt;
+    font-weight: 200;
+    margin: 100px;
+}

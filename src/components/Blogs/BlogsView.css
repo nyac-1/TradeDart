@@ -1,0 +1,152 @@
+.profile{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar__nav{
+    height: 50px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.navbar__nav__link{
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: black;
+}
+
+.navbar__nav__item{
+    width: 80px;
+    text-decoration: none;
+    float: left;
+    padding:10px;
+    margin-left: 5px;
+    border-left: 1px solid rgb(65, 65, 65);
+    text-align: center;
+}
+
+.navbar__nav__item__link{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.main{
+    background-color: teal;
+    height: 92%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main__left{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: scroll;
+
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.main__right{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blogs__item{
+    background-color: #E4E4E4;
+    height: 200px;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.blogs__item:hover{
+    background-color: #AEAEAE;
+}
+
+
+.blogs__head__title{
+    float:left;
+    font-size: 18pt;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.actual__title {
+    float: left;
+    font-size: 18pt;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.actual__date{
+    float: left;
+    font-size: 18pt;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.right{
+    float: right;
+}
+
+.actual__likes{
+    font-size: 18pt;
+    font-weight: 300;
+    margin: 5px;
+}
+
+
+.actual__dislikes{
+    font-size: 18pt;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.row_center{
+    display: flaex;
+    flex-direction: row;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: #510A32;
+    font-weight: 500;
+    width: 100%;
+}

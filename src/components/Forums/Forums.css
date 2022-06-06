@@ -1,0 +1,166 @@
+.profile{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar__nav{
+    height: 50px;
+    width: 100%;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.navbar__nav__link{
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: black;
+}
+
+.navbar__nav__item{
+    width: 80px;
+    text-decoration: none;
+    float: left;
+    padding:10px;
+    margin-left: 5px;
+    border-left: 1px solid rgb(65, 65, 65);
+    text-align: center;
+}
+
+.navbar__nav__item__link{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+.main{
+    background-color: teal;
+    height: 92%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main__left{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: scroll;
+
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.main__right{
+    height: 98%;
+    width: 15%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forumcard{
+    background-color: #E4E4E4;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.2s;
+
+    text-align: center;
+}
+
+.credentials{
+    background-color: aliceblue;
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+.forumcard:hover{
+    background-color: #AEAEAE;
+}
+
+.fromcard__body{
+    font-size: 10pt;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.fromcard__createdby{
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.fromcard__createdon{
+    margin-top: 5px;
+    font-size: 8pt;
+}
+
+.forumreply{
+    background-color: #AEAEAE;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+
+    border-radius: 10px;
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#forumreply__title{
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+#forumreply__textarea{
+    resize: none;
+    margin: 10px;
+    padding: 5px;
+
+    border: 5px solid #cccccc;
+    font-family: avenir;
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+.container__card{
+    width: 100%;
+}

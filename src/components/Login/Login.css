@@ -1,0 +1,103 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    height: 95vh;
+    width: 100%;
+}
+
+.login__container{
+    border: 4px ridge #C6C6C6;
+    z-index: 1;
+    margin-top: 50px;
+    height: 50%;
+    width: 30%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.login__container > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.login__container__form > center > input {
+    height: 30px;
+    width: 50%;
+    border: 1px solid #212121;
+    margin-bottom: 15px;
+}
+.login__container__form__submit {
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    background-color: #FFFFFF;
+    animation: aniOne 4s infinite;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.login__container__form__submit:hover {
+    opacity: 1;
+}
+
+@keyframes aniOne{
+    0% {background-color: rgb(24, 199, 24);}
+    20% {background-color: greenyellow;}
+    40% {background-color: lightblue;}
+    60% {background-color: cyan;}
+    100% {background-color: rgb(26, 189, 189);}
+}
+
+.login__container__form > center > h6 {
+    margin-bottom: 20px;
+}
+
+.login__container__form__register > button{
+    cursor: pointer;
+    height: 35px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.login__container__form__register > button:hover {
+    background-color: black;
+    color: white;
+}
+
+.loginheader__loginnav{
+    display: flex;
+    flex-direction: row;
+    background-color: slategray;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.loginheader__loginnav__name{
+    color: black;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
