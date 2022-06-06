@@ -1,5 +1,7 @@
-# Getting Started with Create React App
+# TradeDart
 
+This project was made for the CSE3002 course for the WinSem 20-21
+Accessible [here](https://trade-dart-2.web.app/login)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
